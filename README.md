@@ -11,6 +11,8 @@ https://zpio.github.io/datascience/
 
 - [Instalar las librerias necesaria](#librerias)
 - [Carga y transformación de los datos](#carga)
+- [Visualización](#viz)
+- [Extraer información](#info)
 
 
 ------------------------------------------------------------------------
@@ -92,7 +94,7 @@ glimpse(chat)
 # $ day             <date> 2021-04-25, 2021-04-26,...
 ```
 
-Visualización
+Visualización <a name="viz"></a>
 ===============================
 
 **Cantidad mensajes en el tiempo**
@@ -255,7 +257,7 @@ chat %>%
 ![](imagenes/6.png)
 
 
-Extraer información
+Extraer información <a name="info"></a>
 ===============================
 
 **Numero de dias activos de chat**
