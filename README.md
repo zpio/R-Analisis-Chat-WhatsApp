@@ -9,14 +9,14 @@ https://zpio.github.io/datascience/
 
 ### Contenido:
 
-- [Instalar las librerias necesaria](#librerias)
+- [Cargar librerias necesarias](#librerias)
 - [Carga y transformación de los datos](#carga)
 - [Visualización](#viz)
 - [Extraer información](#info)
 
 
 ------------------------------------------------------------------------
-Instalar las librerias necesarias <a name="librerias"></a>
+Cargar librerias necesarias <a name="librerias"></a>
 ===============================
 ```r
 #install.packages("rwhatsapp")
@@ -59,7 +59,7 @@ Las variables `emoji` y `emoji_name` son listas anidadas.
 
 **Transformando los datos**
 
-Transformanos el chat omitir mensajes que no tengan autores.
+Transformanos el chat para omitir mensajes que no tengan autores.
 
 Creamos una columna para contar los caracteres del mensaje.
 
@@ -97,7 +97,7 @@ glimpse(chat)
 Visualización <a name="viz"></a>
 ===============================
 
-**Cantidad mensajes en el tiempo**
+**Cantidad de mensajes en el tiempo**
 ```r
 chat %>% 
   count(day) %>% 
